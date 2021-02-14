@@ -1,0 +1,106 @@
+/* 
+==========================================================================
+Styles Reset
+========================================================================== 
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+
+}
+
+
+.quiz-section {
+  align-items: center;
+  /* background: black;
+  color: white; */
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.quiz-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.quiz-title {
+  text-align: center;
+}
+
+.question-title {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.quiz-form {
+  margin-top: 25px;
+}
+
+.quiz-form .radio-container {
+  display: block;
+  cursor: pointer;
+  margin-top: 25px;
+  background: #ffb6c1;
+  padding: 20px;
+  width: 100%;
+}
+
+.quiz-footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.next-button {
+  background-color: #E1341E;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  outline: none;
+  height: 50px;
+  width: 100px;
+}
+
+.next-button:hover {
+  background-color: #E54D3A;
+}
+
+.quiz-divider {
+  margin-top: 50px;
+}
+
+/* 
+==========================================================================
+Responsive Media Queries
+========================================================================== 
+*/
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .quiz-container {
+    width: 50%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
