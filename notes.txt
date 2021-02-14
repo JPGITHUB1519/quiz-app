@@ -1,0 +1,6 @@
+Trivia DB API:
+  https://opentdb.com/api_config.php
+
+Example API Link:
+
+  https://opentdb.com/api.php?amount=10&category=9&type=multiple
